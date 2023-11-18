@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Профиль пользователя</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Стили для примера */
+        /* ... */
+    </style>
+</head>
+<body>
+    <h1>Профиль пользователя</h1>
+    <div>
+        <h2>Данные пользователя:</h2>
+        <p><strong>Логин:</strong> {{ user[0] }}</p>
+        <p><strong>Email:</strong> {{ user[2] }}</p>
+        <p><strong>Вы вошли под:</strong> {{ user[3] }}</p>
+        <!-- Другие данные пользователя из базы данных -->
+        <!-- Например: <p><strong>Имя:</strong> {{ user[3] }}</p> -->
+    </div>
+</body>
+</html>
